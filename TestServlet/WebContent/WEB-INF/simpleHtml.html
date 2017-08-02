@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Me awesome CSS linking</title>
+
+<link rel="stylesheet" type="text/css" href="./htmlcsslink.css"/>
+</head>
+<h1>FORM OF YER LIFE</h1>
+<h2>
+<img src="http://memedump.com/d/4745-1/1252917363974.jpg">
+</h2>
+<form>
+<ul class="form-style-1">
+    <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+    <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="field3" class="field-long" />
+    </li>
+    <li>
+        <label>Subject</label>
+        <select name="field4" class="field-select">
+        <option value="Advertise"></option>
+        <option value="Advertise">Programming</option>
+        <option value="Partnership">Partnership</option>
+        <option value="General Question">General</option>
+        </select>
+    </li>
+    <li>
+        <label>Your Message <span class="required">*</span></label>
+        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+    </li>
+    <li>
+        <input type="submit" value="Submit" onclick="lemetry()"/>
+        
+    </li>
+</ul>
+</form>
+<body>
+<script>
+function lemetry(){
+	alert("Record has been saved.");
+	
+}
+</script>
+</body>
+</html>
