@@ -27,6 +27,7 @@ public class AppTest
 		System.out.print("branch");
 		System.out.print("branchOut1");
 		System.out.print("branchOut2");
+		System.out.print("branchOut2");
     
     }
 
