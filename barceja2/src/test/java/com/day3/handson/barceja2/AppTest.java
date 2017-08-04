@@ -25,6 +25,7 @@ public class AppTest
 		fib.acceptChoice("1");
 		fib.increaseFib(0,1);
 		System.out.print("branch");
+		System.out.print("branchOut1");
     
     }
 
