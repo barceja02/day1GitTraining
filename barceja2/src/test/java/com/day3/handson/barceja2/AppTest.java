@@ -24,6 +24,7 @@ public class AppTest
 	    Fibonacci fib = new Fibonacci();
 		fib.acceptChoice("1");
 		fib.increaseFib(0,1);
+		System.out.print("branch");
     
     }
 
